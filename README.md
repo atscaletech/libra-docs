@@ -1,2 +1,2 @@
-# libra-docs
+# Libra Documentation
 Documentation for the Libra ♎
