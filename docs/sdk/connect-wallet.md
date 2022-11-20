@@ -4,10 +4,13 @@ titleTemplate: Connect the wallets
 ---
 
 # Connect the wallets
-
-Libra SDK provides the wallet connection utils to connect with Web3 wallets easier.
+Libra SDK provides the wallet connection to connect with Web3 wallets easier.
 
 ## Connect
+- **Interface**
+```js
+interface 
+```
 
 ```js
 ...

@@ -4,7 +4,7 @@ titleTemplate: Identities management
 ---
 
 # Identities management
-
+[On-chain identity](/overview/on-chain-identity) is important to reduce the risks of payments. 
 
 ## Create an on-chain identity
 - **Example**

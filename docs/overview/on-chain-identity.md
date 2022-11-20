@@ -21,5 +21,4 @@ These parties are connected by the identity that is created from three key facto
 - **Verifiable credentials:** In the on-chain sharing economy model which will be mentioned in chapter 6, the trust relationship becomes more complicated. The verifiable credentials are the qualification for an identity for a diploma or certificate of a specified skill. Let take freelance marketplace as an example, people usually need to have some skills to get the job and credentials is certificate to ensure the quality of these skills.
 
 ## How to setup an on-chain identity
-
 **WORK IN PROGRESS**

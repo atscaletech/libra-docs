@@ -2,10 +2,21 @@
 title: Libra Javascript SDK
 titleTemplate: Manage currencies
 ---
-
 # Manage currencies
+Libra SDK allows you to create your own currencies. The currencies except native currency needs to be accepted before paid through [LRP Protocol](/overview/lock-and-release-protocol).
 
 ## Create your own currencies
+- **Interface** 
+
+```js 
+interface CurrencyInput {
+  name: string;
+  symbol: string;
+  decimal: integer;
+}
+
+
+```
 
 - **Example**
 ```js

@@ -16,10 +16,11 @@ export default {
           text: 'Overview',
           items: [
             { text: 'Introduction', link: '/overview/' },
-            { text: 'Setup a Libra Node', link: '/overview/setup-a-libra-node' },
-            { text: 'Lock And Release Payment', link: '/overview/lock-and-release-protocol' },
+            { text: 'Payment Protocol', link: '/overview/payment-protocol' },
             { text: 'Decentralized Dispute Resolution', link: '/overview/decentralized-dispute-resolution' },
             { text: 'On-chain identity', link: '/overview/on-chain-identity' },
+            { text: 'Off-chain SDK', link: '/overview/off-chain-sdk' },
+            { text: 'Setup a Libra Node', link: '/overview/setup-a-libra-node' },
           ],
         },
       ],

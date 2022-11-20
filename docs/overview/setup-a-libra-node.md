@@ -1,5 +1,6 @@
 ---
-title: Setup a Libra Node
+title: Libra
+titleTemplate: How to setup a Libra node
 ---
 
 # How to setup a Libra node

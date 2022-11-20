@@ -4,10 +4,8 @@ titleTemplate: Payments Handling
 ---
 
 # Payments Handling
-
+Libra offers direct transfer payments and lock-n-release payments. The guide bellow will show how to work with payments in LRP Protocol.
 ## Create a payment
-- **Params**
-
 
 - **Example**
 ```js
@@ -25,6 +23,7 @@ const { hash, status } = await libra.lrp.createPayment({
 ```
 
 ## Get a payment
+
 
 ```js
 ...
