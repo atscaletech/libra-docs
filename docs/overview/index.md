@@ -18,6 +18,5 @@ As you can see, the Libra includes five core components:
 - [Payment Protocol](/overview/payment-protocol)
 - [Decentralized Dispute Resolution](/overview/decentralized-dispute-resolution)
 - [On-chain identity](/overview/on-chain-identity)
-- [Off-chain SDKs](/overview/offchain-sdks)
-- [Libra DAO](/overview/libra-dao)
-
+- [Off-chain SDKs](/overview/off-chain-sdks)
+- [On-chain Governance](/overview/on-chain-governance)

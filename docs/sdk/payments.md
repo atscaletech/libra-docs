@@ -4,8 +4,9 @@ titleTemplate: Payments Handling
 ---
 
 # Payments Handling
-Libra offers direct transfer payments and lock-n-release payments. The guide bellow will show how to work with payments in LRP Protocol.
-## Create a payment
+
+## Using LRP Protocol
+### Create a payment
 
 - **Example**
 ```js
@@ -22,7 +23,7 @@ const { hash, status } = await libra.lrp.createPayment({
 ...
 ```
 
-## Get a payment
+### Get a payment
 
 
 ```js
@@ -31,7 +32,7 @@ const payment = await libra.lrp.getPayment('payment_hash');
 ...
 ```
 
-## Get list payments of payer
+### Get list payments of payer
 
 ```js
 ...
@@ -39,7 +40,7 @@ const payment = await libra.lrp.getPaymentsByPayer('payer_address');
 ...
 ```
 
-## Get list payments of payee
+### Get list payments of payee
 
 ```js
 ...
@@ -47,7 +48,7 @@ const payment = await libra.lrp.getPaymentsByPayee('payee_address');
 ...
 ```
 
-## Accept a payment
+### Accept a payment
 
 ```js
 ...
@@ -55,7 +56,7 @@ const payment = await libra.lrp.acceptPayment('payment_hash');
 ...
 ```
 
-## Reject a payment
+### Reject a payment
 
 ```js
 ...
@@ -63,7 +64,7 @@ const payment = await libra.lrp.rejectPayment('payee_address');
 ...
 ```
 
-## Reject a payment
+### Reject a payment
 
 ```js
 ...
