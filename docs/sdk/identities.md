@@ -4,9 +4,10 @@ titleTemplate: Identities management
 ---
 
 # Identities management
-[On-chain identity](/overview/on-chain-identity) is important to reduce the risks of payments. 
+[On-chain identity](/overview/on-chain-identity) is important to reduce the risks of payments. People can evaluate the credibility of an account before do any exchange with that account to avoid the risks of fraud or money laundering.
 
 ## Create an on-chain identity
+- **Description:** Setup a new identity for the account
 - **Example**
 ```js
 ...
@@ -24,7 +25,7 @@ const { hash, status } = await libra.identities.createIdentity({
 ```
 
 ## Update an on-chain identity
-
+- **Description:** Update the on-chain identity of the account
 - **Example**
 ```js
 ...
@@ -41,7 +42,7 @@ const { hash, status } = await libra.identities.createIdentity({
 ```
 
 ## Delete on-chain identity
-
+- **Description:** Remove the on-chain identity of the account
 - **Example**
 ```js
 ...
@@ -50,7 +51,7 @@ const { hash, status } = await libra.identities.deleteIdentity(account);
 ```
 
 ## Request evaluator to review identity
-
+- **Description:** Request an evaluator to review on-chain data fields at provided positions
 - **Example**
 ```js
 ...
@@ -62,7 +63,7 @@ const { hash, status } = await libra.identities.requestToVerify({
 ```
 
 ## Submit the evaluated result of an account
-
+- **Description:** Submit transcript of evaluation based on review requests. The evaluator only can submit evaluation about requested account.
 - **Example**
 ```js
 ...

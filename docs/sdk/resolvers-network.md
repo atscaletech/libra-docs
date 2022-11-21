@@ -6,16 +6,16 @@ titleTemplate: Resolvers Network
 # Resolvers Network
 
 ## Get a resolver info
-
+- **Description:** Get the information of a resolver by its account address
 - **Example**
 ```js
 ...
-const { hash, status } = await libra.resolvers.getResolver(resolverAddress);
+const resolver = await libra.resolvers.getResolver(resolverAddress);
 ...
 ```
 
 ## Join network
-
+- **Description:** Request to become a resolver. If the self stake match the requirements, the account will become the active resolver. Otherwise, the account will remain the candidacy until the received enough delegation.
 - **Example**
 ```js
 ...
@@ -27,7 +27,8 @@ const { hash, status } = await libra.resolvers.joinResolverNetwork({
 ```
 
 ## Resign
-
+- **Description:** Request to resign from resolver network
+- **Example**
 ```js
 ...
 const { hash, status } = await libra.resolvers.resign(account);
@@ -35,7 +36,7 @@ const { hash, status } = await libra.resolvers.resign(account);
 ```
 
 ## Delegate
-
+- **Description:** Delegate token to a resolver. Once the total stake of resolver match requirement, it will be active
 - **Example**
 ```js
 ...
@@ -47,7 +48,7 @@ const { hash, status } = await libra.resolvers.delegate({
 ```
 
 ## Undelegate
-
+- **Description:** Undelegate token from a resolver. Once the total stake not match the requirements, the resolver will be terminated.
 - **Example**
 ```js
 ...
