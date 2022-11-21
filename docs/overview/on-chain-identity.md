@@ -1,5 +1,6 @@
 ---
-title: On-chain Identity
+title: Libra
+titleTemplate: On-chain Identity
 ---
 
 # On-chain identity

@@ -12,7 +12,7 @@ Libra is a decentralized payment system that empowers the next e-commerce. Libra
 ## How Libra Works?
 
 Below is a diagram that give you an overview of Libra.
-![Libra Overview](/assets/libra.drawio.png)
+![Libra Overview](/assets/libra.drawio.svg)
 
 As you can see, the Libra includes five core components:
 - [Payment Protocol](/overview/payment-protocol)

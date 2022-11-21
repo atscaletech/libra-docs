@@ -3,4 +3,4 @@ title: Libra
 titleTemplate: On-chain governance
 ---
 
-# COMING SOON
+# On-chain governance (Coming soon)
