@@ -1,4 +1,7 @@
 export default {
+  
+  title: 'Libra',
+  description: 'Decentralized payments system that empowers the next e-commerce',
   themeConfig: {
     appearance: 'dark',
     logo: '/logo.svg',
@@ -45,6 +48,4 @@ export default {
       { icon: 'twitter', link: 'https://twitter.com/PayWithLibra' },
     ]
   },
-  siteTitle: 'Libra',
-  description: 'Decentralized payments system that empowers the next e-commerce'
 }

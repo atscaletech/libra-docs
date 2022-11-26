@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Libra
+titleTemplate: Decentralized payments system that empowers the next e-commerce
 description: Decentralized payments system that empowers the next e-commerce
 hero:
   name: Libra
